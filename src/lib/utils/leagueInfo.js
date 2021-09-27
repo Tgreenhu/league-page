@@ -51,6 +51,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Everyone else is trash",
       "tradingScale": 3, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -70,6 +71,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "I ask Danny for advice.",
       "tradingScale": 5, // 1 - 10
+      "preferredContact": "Email", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -89,6 +91,7 @@ export const managers = [
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Win or Die on the CEH hill",
       "tradingScale": 6, // 1 - 10
+      "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -108,6 +111,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Just trade me, bro",
       "tradingScale": 9, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -127,6 +131,7 @@ export const managers = [
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Will do anything for 1st round draft picks",
       "tradingScale": 8, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -147,6 +152,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "I wish I knew what sport this was.",
       "tradingScale": 4, // 1 - 10
+      "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -154,7 +160,7 @@ export const managers = [
       "location": "Atlanta, USA", // (optional)
       "bio": "TBD",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
-      "favoriteTeam": "pitt", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+      "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
       "rival": {
         name: "Zack", // Can be anything (usually your rival's name)
@@ -166,6 +172,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Please offer me, cause God knows I won't offer you.",
       "tradingScale": 4, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -185,10 +192,11 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Alex Smith is pregnant.",
       "tradingScale": 3, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "name": "Manny Savas",
+      "name": "Matt Best",
       "location": "Smyrna, USA", // (optional)
       "bio": "TBD",
       "photo": "/managers/name.jpg", // square ratio recommended (no larger than 500x500)
@@ -204,6 +212,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Just trust me, I'm right.",
       "tradingScale": 1, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
     {
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
@@ -223,6 +232,7 @@ export const managers = [
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "I got lucky once and now I'm a genius.",
       "tradingScale": 4, // 1 - 10
+      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
   ]
 
