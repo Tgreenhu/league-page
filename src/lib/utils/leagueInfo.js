@@ -7,12 +7,19 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>The Alcoholics Assembly Fantasy League (AAFL) was founded in 2017, when 10 close friends decided to embark on the journey of dynasty fantasy football.
+  Once a redraft league, the challenge was not enough.</p>
+  <p>This league is not just about the money, it is a way for 10 friends to stay in consistent contact with each other as life brings us to unknown terrorties...and of course the year long bragging rights over our fellow friends.</p>
+  <p>The AAFL is currently a 1 QB, 2 RB, 3 WR, 1 TE, 1 FLEX, 1 K, 1 DEF league, with TE premium scoring.  Starting with the 2022 season, it will be a Superflex, Tight End premium scoring league and the elimination of both K and DEF, entering a new FLEX position to the starting lineup.</p>
+  <p>So far, we have had 4 seperate winners:
+    <ul>
+      <li>2017: Matt Best</li>
+      <li>2018: Cody Dewrell</li>
+      <li>2019: Nate Yoakum</li>
+      <li>2020: Austin Schmidt</li>
+    </ul>
+  </p>
+  <p>Check back for consistent updates, trasactions, matchups, and more!</p>
 `;
 
 /*   STEP 3   */
