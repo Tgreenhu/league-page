@@ -37,7 +37,7 @@ export const managers = [
       "name": "Zack Trichinotis",
       "tookOver": 2019, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brookhaven, GA", // (optional)
-      "bio": "TBD",
+      "bio": "Everone else in this league is trash.  I run circles around them and it's not even close",
       "photo": "/managers/zack.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -49,7 +49,7 @@ export const managers = [
       "favoritePlayer": 167, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Everyone else is trash",
+      "philosophy": "Veto. Everything.",
       "tradingScale": 3, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
@@ -57,7 +57,7 @@ export const managers = [
       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Dave Matton",
       "location": "Buckhead, GA", // (optional)
-      "bio": "TBD",
+      "bio": "I want to win, but then I want to rebuild but then I want to win, but then I want to rebuild.  It's a never-ending cycle.",
       "photo": "/managers/dave.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -77,7 +77,7 @@ export const managers = [
       "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Taylor Greenhut",
       "location": "Atlanta, GA", // (optional)
-      "bio": "The beloved Commish!",
+      "bio": "The hated commissioner.  If 3rd place was 1st place, I would be rich!",
       "photo": "/managers/taylor.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -89,7 +89,7 @@ export const managers = [
       "favoritePlayer": 4046, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Win or Die on the CEH hill",
+      "philosophy": "Live or Die on the CEH hill.",
       "tradingScale": 6, // 1 - 10
       "preferredContact": "Sleeper", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
@@ -97,7 +97,7 @@ export const managers = [
       "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Cody Dewrell",
       "location": "Woodstock, GA", // (optional)
-      "bio": "TBD",
+      "bio": "#1 team on paper, #10 team in the standings.  I hate this game.",
       "photo": "/managers/cody.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -109,7 +109,7 @@ export const managers = [
       "favoritePlayer": 5870, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Just trade me, bro",
+      "philosophy": "Lets just keep trading until one of us win!",
       "tradingScale": 9, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
@@ -117,7 +117,7 @@ export const managers = [
       "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Chip Miller",
       "location": "Somewhere in, GA", // (optional)
-      "bio": "TBD",
+      "bio": "I will do anything for 1st round draft picks...yes, anything.",
       "photo": "/managers/chip.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Dynasty", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -127,9 +127,9 @@ export const managers = [
         image: "/managers/cody.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 4983, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "valuePosition": "TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Will do anything for 1st round draft picks",
+      "philosophy": "Youth prevails!",
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
@@ -138,7 +138,7 @@ export const managers = [
       "name": "Danny Kennedy",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "God Knows Where, USA", // (optional)
-      "bio": "TBD",
+      "bio": "I'm just here to talk shit and go on a vacation.",
       "photo": "/managers/danny.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -158,7 +158,7 @@ export const managers = [
       "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Austin Schmidt",
       "location": "Atlanta, USA", // (optional)
-      "bio": "TBD",
+      "bio": "I have a dream, that one day I will win this league!",
       "photo": "/managers/austin.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "pit", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -178,7 +178,7 @@ export const managers = [
       "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Manny Savas",
       "location": "Atlanta, USA", // (optional)
-      "bio": "TBD",
+      "bio": "Always the bridesmaid, never the bride.  One day I'll get over the hump!",
       "photo": "/managers/manny.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -190,7 +190,7 @@ export const managers = [
       "favoritePlayer": 3198, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "philosophy": "Alex Smith is pregnant.",
+      "philosophy": "Don't let me get you pregnant.  That is all.",
       "tradingScale": 3, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon'
     },
@@ -198,7 +198,7 @@ export const managers = [
       "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Matt Best",
       "location": "Smyrna, USA", // (optional)
-      "bio": "TBD",
+      "bio": "Sold my soul for the 1st ever AAFL championship, and I honestly don't care.",
       "photo": "/managers/matt.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
@@ -208,7 +208,7 @@ export const managers = [
         image: "/managers/nate.jpeg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
       },
       "favoritePlayer": 24, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
-      "valuePosition": "QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+      "valuePosition": "DEF", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
       "philosophy": "Just trust me, I'm right.",
       "tradingScale": 1, // 1 - 10
@@ -218,7 +218,7 @@ export const managers = [
       "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Nate Yoakum",
       "location": "Smyrna, USA", // (optional)
-      "bio": "TBD",
+      "bio": "Is this the Krusty Krab?",
       "photo": "/managers/nate.jpeg", // square ratio recommended (no larger than 500x500)
       "favoriteTeam": "atl", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
       "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
