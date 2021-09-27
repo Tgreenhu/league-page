@@ -100,6 +100,61 @@
 </style>
 
 <div class="constitution">
+    <h1 class="noUnderscore">Alcoholics Assembly Constitution</h1>
+    <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Basic Rules</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Finances</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 League Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Payout</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: League Ownership</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rosters</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Positional Breakdown</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Offense</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 Defense</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>5.3 Kicking</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Startup Auction Draft</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Rookie Draft</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Draft Order</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Section 8: Free Agents</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>8.1 FAAB</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Trades</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineOne)}>9.1 Drug Rule</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineTwo)}>9.2 Trade Deadline</h4>
+        <h5 class="noUnderscore clickable" on:click={() => goToSection(nineThree)}>9.3 Veto/Trade Process</h5>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Section 10: Regular Season</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eleven)}>Section 11: Playoffs</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenOne)}>11.1 Playoff Seeding</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenTwo)}>11.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenThree)}>11.2 Toilet Bowl</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(twelve)}>Section 12: Punishments</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(thirteen)}>Section 13: League Activity</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(thirteenOne)}>13.1 Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(thirteenTwo)}>13.2 Communication Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(thirteenThree)}>13.3 Social Media Policy</h4>
+    
+    <hr />
+    
+    <h2 class="sectionHeading" bind:this={one}>Section 1 Basic Rules</h2>
+        <ul>
+            <li>This is a DYNASTY league.  Owners are expected to commit to playing in this league for the foreseeable future.  The intent of this league is to give us a chance to continue to play fantasy football together for years to come in a more realistic football setting.  Turnover of ownership will result in the slow dismantlement of the league, so please consider this before committing.  If there is a problem with your continued ownership please notify the league and we will work on a way for you to stay or a replacement if necessary.</li>
+            <li>AAFL is a 10 team league with no divisions.  This ensures the top players make the playoffs and draft order is easily seen.</li>
+            <li>AAFL is a TE Premium league (1.0pts per reception) and will become a SuperFlex league starting with the 2022 season.</li>
+            <li>The league season will begin from Week 1 of the NFL regular season and conclude with the championship ending at Week 17 (amended from Week 16 after the increase in games).</li>
+            <li>Collusion will NOT be tolerated and will result in immediate proposals for expulsion to the league.</li>
+            <li>If there are any rules that an owner would like to bring up for discussion, they may do so by:
+                <ul>
+                <li>Contacting the league commissioner with the rule they want changed</li>
+                <li>Provide a solution to the rule change</li>
+                <li>From here, a league vote will occur in which 51%+ must agree to the change for it to take effect immediately</li>
+                <li>Vote will take place during Rookie/FA Draft Weekend</li>
+                </ul>
+            </li>
+        </ul>
+
+</div>
+
+<!-- <div class="constitution">
     <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
@@ -304,4 +359,4 @@
     <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
     <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
 
-</div>
+</div> -->
