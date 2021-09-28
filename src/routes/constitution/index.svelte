@@ -125,7 +125,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Section 9: Trades</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(nineOne)}>9.1 Drug Rule</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(nineTwo)}>9.2 Trade Deadline</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineThree)}>9.3 Veto/Trade Process</h5>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineThree)}>9.3 Veto/Trade Process</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Section 10: Regular Season</h3>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(eleven)}>Section 11: Playoffs</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenOne)}>11.1 Playoff Seeding</h4>
