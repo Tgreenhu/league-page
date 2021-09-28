@@ -100,7 +100,7 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">ALCOHOLICS ASSEMBLY CONSTITUTION</h1>
     
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
     
@@ -112,7 +112,7 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Buy Out</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rosters</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Positional Breakdown</h4>
-	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.2 Future Notes</h4>
+	    <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Future Notes</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Offense</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 Defense</h4>
@@ -156,12 +156,12 @@
             </li>
         </ul>
     <h2 class="sectionHeading" bind:this={two}>Section 2 Finances</h2>
-    <h3 class="subSectionHeading" bind:this={oneOne}>2.1 League Dues</h3>
+    <h3 class="subSectionHeading" bind:this={twoOne}>2.1 League Dues</h3>
         <ul>
             <li>Owners are required to pay $125 to the league treasurer by the start of that year’s Rookie/FA Draft.</li>
             <li>Failure to pay or set up a payment plan with the league treasurer will result in forfeiting all winnings won that season, as well as a forfeiture of all draft picks until paid.</li>
         </ul>
-    <h3 class="subSectionHeading" bind:this={oneOne}>2.1 Payout</h3>
+    <h3 class="subSectionHeading" bind:this={twoTwo}>2.2 Payout</h3>
         <ul>
             <li>1st Place: $705 + extra not used for league expenses</li>
             <li>2nd Place: $100</li>
@@ -170,14 +170,14 @@
             <li>Trophy Nameplate: $10</li>
         </ul>
     <h2 class="sectionHeading" bind:this={three}>Section 3 League Ownership</h2>
-    <h3 class="subSectionHeading" bind:this={oneOne}>3.1 Buy Out</h3>
+    <h3 class="subSectionHeading" bind:this={threeOne}>3.1 Buy Out</h3>
         <ul>
             <li>An owner that wants to leave the league must do so only after a new owner has been found AND the previous owner will pay the entry fee for the new owner for the following year.</li>
 	    <li>If an owner no longer wants to participate in the AAFL, a new owner will be sought out by the entire league.</li>
             <li>If there are multiple options, a league vote will be held for all the nominations for possible new owners.  The owner with above a 50% acceptance rate will then be announced as the new owner barring acceptance.</li>
     	</ul>
     <h2 class="sectionHeading" bind:this={four}>Section 4 Rosters</h2>
-    <h3 class="subSectionHeading" bind:this={oneOne}>4.1 Positional Breakdown</h3>
+    <h3 class="subSectionHeading" bind:this={fourOne}>4.1 Positional Breakdown</h3>
     <p class="bold">27 Total Players</p>
     <p class="underscore">Starters</p>
     <ul>
@@ -206,7 +206,7 @@
         <li>Taxi Squads are locked during the season, only editable in the offseason or if an owner trades for a player on another owner’s Taxi Squad.</li>
         <li>If you activate a player on your own Taxi Squad, you can not move them back and must account for that space on your active roster.</li>
     </ul>
-    <h3 class="subSectionHeading" bind:this={oneOne}>4.2 Future Notes</h3>
+    <h3 class="subSectionHeading" bind:this={fourTwo}>4.2 Future Notes</h3>
     <p class="underscore">Super Flex</p>
     <ul>
         <li>Starting with the 2022 season, the FLEX position will be changed to a SuperFlex position.</li>
@@ -220,6 +220,66 @@
     <ul>
 	<li>In the event that a player retires, the current owner may drop the player.  They reserve the right of first refusal for 1 year after they are dropped to pick them back up if the player in question re-joins the NFL.  If the player re-joins, that owner has 1 week to pick up that player.  After that week the player is officially a free agent and open to all owners.</li>
     </ul>
+    <h2 class="sectionHeading" bind:this={five}>Section 5 Scoring</h2>
+    <h3 class="subSectionHeading" bind:this={fiveOne}>5.1 Offense</h3>
+        <ul>
+            <li>Passing</li>
+                <ul>
+                    <li>Yards: 1pt = 25yds</li>
+                    <li>Touchdowns: 4pts</li>
+                    <li>Interceptions: -2pts</li>
+                </ul>
+            <li>Rushing</li>
+                <ul>
+                    <li>Yards: 1pt = 10yds</li>
+                    <li>Touchdowns: 6pts</li>
+                </ul>
+            <li>Receiving</li>
+                <ul>
+                    <li>Receptions: 0.5pts</li>
+                    <li>TE Receptions: 1.0pts</li>
+                    <li>Yards: 1pt = 10yds</li>
+                    <li>Touchdowns: 6pts</li>
+                </ul>
+            <li>Kick/Punt Returns</li>
+                <ul>
+                    <li>Touchdowns: 6pts</li>
+                </ul>
+            <li>Miscellaneous</li>
+                <ul>
+                    <li>Fumble Recovered for Touchdown: 6pts</li>
+                    <li>2-Point Conversion: 2pts</li>
+                    <li>Fumbles Lost: -2pts</li>
+                </ul>
+        </ul>
+    <h3 class="subSectionHeading" bind:this={fiveTwo}>5.2 Defense</h3>
+        <ul>
+            <li>Sack: 1pt</li>
+            <li>Interception: 2pts</li>
+            <li>Fumble Recovered: 2pts</li>
+            <li>Safety: 3pts</li>
+            <li>Touchdown: 6pts</li>
+            <li>2-Point Conversion Return: 2pts</li>
+            <li>Blocked Kick: 1pt</li>
+            <li>Return Touchdown: 6pts</li>
+            <li>Points Allowed 0: 12pts</li>
+            <li>Points Allowed 1-6: 10pts</li>
+            <li>Points Allowed 7-13: 8pts</li>
+            <li>Points Allowed 14-20: 6pts</li>
+            <li>Points Allowed 21-27: 4pts</li>
+            <li>Points Allowed 28-34: 2pts</li>
+            <li>Points Allowed 35+: 0pts</li>
+        </ul>
+    <h3 class="subSectionHeading" bind:this={fiveThree}>5.3 Kicking</h3>
+        <ul>
+            <li>PAT Made: 1pt</li>
+            <li>PAT Missed: -1pt</li>
+            <li>FG Made 0-19yds: 1pt</li>
+            <li>FG Made 20-29yds: 2pts</li>
+            <li>FG Made 30-39yds: 3pts</li>
+            <li>FG Made 40-49yds: 4pts</li>
+            <li>FG Made 50yds+: 5pts</li>
+        </ul>
 
 </div>
 
