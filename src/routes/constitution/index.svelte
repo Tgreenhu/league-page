@@ -100,13 +100,16 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">Alcoholics Assembly Constitution</h1>
+    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    
     <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
+    
     <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Basic Rules</h3>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Finances</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 League Dues</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Payout</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: League Ownership</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Buy Out</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rosters</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Positional Breakdown</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring</h3>
@@ -134,7 +137,7 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(thirteenThree)}>13.3 Social Media Policy</h4>
     
     <hr />
-    
+
     <h2 class="sectionHeading" bind:this={one}>Section 1 Basic Rules</h2>
         <ul>
             <li>This is a DYNASTY league.  Owners are expected to commit to playing in this league for the foreseeable future.  The intent of this league is to give us a chance to continue to play fantasy football together for years to come in a more realistic football setting.  Turnover of ownership will result in the slow dismantlement of the league, so please consider this before committing.  If there is a problem with your continued ownership please notify the league and we will work on a way for you to stay or a replacement if necessary.</li>
@@ -151,6 +154,68 @@
                 </ul>
             </li>
         </ul>
+    <h2 class="sectionHeading" bind:this={two}>Section 2 Finances</h2>
+    <h3 class="subSectionHeading" bind:this={oneOne}>2.1 League Dues</h3>
+        <ul>
+            <li>Owners are required to pay $125 to the league treasurer by the start of that year’s Rookie/FA Draft.</li>
+            <li>Failure to pay or set up a payment plan with the league treasurer will result in forfeiting all winnings won that season, as well as a forfeiture of all draft picks until paid.</li>
+        </ul>
+    <h3 class="subSectionHeading" bind:this={oneOne}>2.1 Payout</h3>
+        <ul>
+            <li>1st Place: $705 + extra not used for league expenses</li>
+            <li>2nd Place: $100</li>
+            <li>3rd Place: $0</li>
+            <li>Weekly Winner: $15/week</li>
+            <li>Trophy Nameplate: $10</li>
+        </ul>
+    <h2 class="sectionHeading" bind:this={three}>Section 3 League Ownership</h2>
+    <h3 class="subSectionHeading" bind:this={oneOne}>3.1 Buy Out</h3>
+        <ul>
+            <li>An owner that wants to leave the league must do so only after a new owner has been found AND the previous owner will pay the entry fee for the new owner for the following year.</li>
+        </ul>
+    <ul>
+        <li>If an owner no longer wants to participate in the AAFL, a new owner will be sought out by the entire league.</li>
+        <li>f there are multiple options, a league vote will be held for all the nominations for possible new owners.  The owner with above a 50% acceptance rate will then be announced as the new owner barring acceptance.</li>
+    </ul>
+    <h2 class="sectionHeading" bind:this={four}>Section 4 Rosters</h2>
+    <h3 class="subSectionHeading" bind:this={oneOne}>4.1 Positional Breakdown</h3>
+    <p>27 Total Players</p>
+    <p class="underscore">Starters</p>
+    <ul>
+        <li>QB</li>
+        <li>RB</li>
+        <li>RB</li>
+        <li>WR</li>
+        <li>WR</li>
+        <li>WR</li>
+        <li>TE</li>
+        <li>FLEX (RB/WR/TE)</li>
+        <li>K</li>
+        <li>D/ST</li>
+    </ul>
+    <p class="underscore">Bench</p>
+    <ul>
+        <li>17 active bench spots.</li>
+    </ul>
+    <p class="underscore">IR</p>
+    <ul>
+        <li>Each team will also have 2 Reserve spots for players that qualify.  These spots do not count as the 25 and if a player is activated off of the Reserve spot an active player must then be dropped to add them to your team.</li>
+    </ul>
+    <p class="underscore">Taxi Squad</p>
+    <ul>
+        <li>Taxi Squads will compile of 3 players of either ROOKIES or SOPHOMORES.</li>
+        <li>Taxi Squads are locked during the season, only editable in the offseason or if an owner trades for a player on another owner’s Taxi Squad.</li>
+        <li>If you activate a player on your own Taxi Squad, you can not move them back and must account for that space on your active roster.</li>
+    </ul>
+    <p class="underscore">Super Flex</p>
+    <ul>
+        <li>Starting with the 2022 season, the FLEX position will be changed to a SuperFlex position.</li>
+        <li>Owners will have the chance to start a QB, RB, WR, or TE in this spot.</li>
+    </ul>
+    <ul>
+        <li>In the Offseason, rosters will be expanded from 27 to 33 to accommodate new free agent pickups and drafted players.  There will be no IR spots available so all previous IR players will count towards the 30 roster limit.  Owners will cut rosters down from 33 to 27 by 11:59PM on the Sunday before Week One of the NFL season.</li>
+        <li>In the event that a player retires, the current owner may drop the player.  They reserve the right of first refusal for 1 year after they are dropped to pick them back up if the player in question re-joins the NFL.  If the player re-joins, that owner has 1 week to pick up that player.  After that week the player is officially a free agent and open to all owners.</li>
+    </ul>
 
 </div>
 
