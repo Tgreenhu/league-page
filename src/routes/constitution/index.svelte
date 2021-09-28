@@ -16,7 +16,8 @@
     let ten;
     let eleven, elevenOne, elevenTwo, elevenThree;
     let twelve;
-    let thirteen, thirteenOne, thirteenTwo, thirteenThree, thirteenFour;
+    let thirteen, thirteenOne, thirteenTwo, thirteenThree, thirteenFour
+    let fourteen;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top;
