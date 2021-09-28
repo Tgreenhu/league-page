@@ -112,6 +112,7 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Buy Out</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Rosters</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Positional Breakdown</h4>
+	<h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.2 Future Notes</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Scoring</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Offense</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>5.2 Defense</h4>
@@ -172,14 +173,12 @@
     <h3 class="subSectionHeading" bind:this={oneOne}>3.1 Buy Out</h3>
         <ul>
             <li>An owner that wants to leave the league must do so only after a new owner has been found AND the previous owner will pay the entry fee for the new owner for the following year.</li>
-        </ul>
-    <ul>
-        <li>If an owner no longer wants to participate in the AAFL, a new owner will be sought out by the entire league.</li>
-        <li>f there are multiple options, a league vote will be held for all the nominations for possible new owners.  The owner with above a 50% acceptance rate will then be announced as the new owner barring acceptance.</li>
-    </ul>
+	    <li>If an owner no longer wants to participate in the AAFL, a new owner will be sought out by the entire league.</li>
+            <li>If there are multiple options, a league vote will be held for all the nominations for possible new owners.  The owner with above a 50% acceptance rate will then be announced as the new owner barring acceptance.</li>
+    	</ul>
     <h2 class="sectionHeading" bind:this={four}>Section 4 Rosters</h2>
     <h3 class="subSectionHeading" bind:this={oneOne}>4.1 Positional Breakdown</h3>
-    <p>27 Total Players</p>
+    <p class="bold">27 Total Players</p>
     <p class="underscore">Starters</p>
     <ul>
         <li>QB</li>
@@ -207,14 +206,19 @@
         <li>Taxi Squads are locked during the season, only editable in the offseason or if an owner trades for a player on another owner’s Taxi Squad.</li>
         <li>If you activate a player on your own Taxi Squad, you can not move them back and must account for that space on your active roster.</li>
     </ul>
+    <h3 class="subSectionHeading" bind:this={oneOne}>4.2 Future Notes</h3>
     <p class="underscore">Super Flex</p>
     <ul>
         <li>Starting with the 2022 season, the FLEX position will be changed to a SuperFlex position.</li>
         <li>Owners will have the chance to start a QB, RB, WR, or TE in this spot.</li>
     </ul>
+    <p class="underscore">Offseason</p>
     <ul>
         <li>In the Offseason, rosters will be expanded from 27 to 33 to accommodate new free agent pickups and drafted players.  There will be no IR spots available so all previous IR players will count towards the 30 roster limit.  Owners will cut rosters down from 33 to 27 by 11:59PM on the Sunday before Week One of the NFL season.</li>
-        <li>In the event that a player retires, the current owner may drop the player.  They reserve the right of first refusal for 1 year after they are dropped to pick them back up if the player in question re-joins the NFL.  If the player re-joins, that owner has 1 week to pick up that player.  After that week the player is officially a free agent and open to all owners.</li>
+    </ul>
+    <p class="underscore">Retirement</p>
+    <ul>
+	<li>In the event that a player retires, the current owner may drop the player.  They reserve the right of first refusal for 1 year after they are dropped to pick them back up if the player in question re-joins the NFL.  If the player re-joins, that owner has 1 week to pick up that player.  After that week the player is officially a free agent and open to all owners.</li>
     </ul>
 
 </div>
