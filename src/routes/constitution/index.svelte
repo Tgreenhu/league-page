@@ -4,13 +4,19 @@
 
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
-    let two, twoOne, twoTwo, twoThree;
+    let one;
+    let two, twoOne;
     let three, threeOne;
     let four, fourOne, fourTwo;
-    let five, fiveOne;
-    let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree;
+    let five, fiveOne, fiveTwo, fiveThree;
+    let six;
+    let seven, sevenOne;
+    let eight, eightOne;
+    let nine, nineOne, nineTwo, nineThree;
+    let ten;
+    let eleven, elevenOne, elevenTwo, elevenThree;
+    let twelve;
+    let thirteen, thirteenOne, thirteenTwo, thirteenThree;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top;
@@ -130,7 +136,7 @@
     <h3 class="noUnderscore clickable" on:click={() => goToSection(eleven)}>Section 11: Playoffs</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenOne)}>11.1 Playoff Seeding</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenTwo)}>11.2 Playoff Tiebreakers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenThree)}>11.2 Toilet Bowl</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(elevenThree)}>11.3 Toilet Bowl</h4>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(twelve)}>Section 12: Punishments</h3>
     <h3 class="noUnderscore clickable" on:click={() => goToSection(thirteen)}>Section 13: League Activity</h3>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(thirteenOne)}>13.1 Tanking Policy</h4>
